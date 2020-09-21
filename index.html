@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <title>Front End Test - Greenthumb</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.scss" />
+  </head>
+
+  <body>
+    <main>
+      <section class="home-banner container">
+        <img class="logo" src="images/hero/logo.svg" alt="Greenthumb" />
+        <h1 class="text-left col-sm">Find your next <br />green friend</h1>
+        <section class="menu-card">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="/images/results/icons/sun.svg"
+                    alt="Sun"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <span class="font-weight-bold">1.</span> Set the amount of
+                      <span class="font-weight-bold">sunlight</span> your plant
+                      will get.
+                    </p>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu2"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Select...
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenu2"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Three hours
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Six hours
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          The whole day
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="/images/results/icons/wateringcan.svg"
+                    alt="WateringCan"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <span class="font-weight-bold">2.</span> How often do you
+                      want to <span class="font-weight-bold">water</span> your
+                      plant?
+                    </p>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu2"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Select...
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenu2"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Three hours
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Six hours
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          The whole day
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    class="card-img-top"
+                    src="/images/results/icons/dog.svg"
+                    alt="Dog"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <span class="font-weight-bold">3.</span> Do you have pets?
+                      Do they <span class="font-weight-bold">chew</span> plants?
+                    </p>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenu2"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Select
+                      </button>
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenu2"
+                      >
+                        <button class="dropdown-item" type="button">
+                          Three hours
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          Six hours
+                        </button>
+                        <button class="dropdown-item" type="button">
+                          The whole day
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="home-content container d-flex justify-content-left">
+        <img class="logo" src="/images/results/icons/pick.svg" alt="Pick" />
+        <h2 class="text-left col-sm">Our picks for you</h2>
+        <section class="content-card">
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="card col" style="width: 14rem; align-items: center">
+                <img
+                  class="card-img-content"
+                  src="images/results/plants/euphorbia-eritrea.jpg"
+                  alt="Euphorbia Eritrea"
+                />
+                <div class="card-body-content">
+                  <h3>Euphorbia Eritrea</h3>
+                  <div class= "row justify-content-around">
+                    <p class="card-text-content">$20</p>
+                    <div class="image-content">
+                      <img src="images/results/icons/Pet.svg" alt="Pet Friendly" />
+                      <img src="images/results/icons/HighSun.svg" alt="Need High Sun" />
+                      <img
+                        src="images/results/icons/Raindrop.svg"
+                        alt="Need Water"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col" style="width: 14rem; align-items: center">
+                <img
+                  class="card-img-content"
+                  src="images/results/plants/succulent-bowl-large.jpg"
+                  alt="Succulent Bowl"
+                />
+                <div class="card-body-content">
+                  <h3>Succulent bowl</h3>
+                  <div class="row justify-content-around">
+                    <p class="card-text-content">$20</p>
+                    <div class="image-content">
+                      <img src="images/results/icons/Pet.svg" alt="Pet Friendly" />
+                      <img src="images/results/icons/HighSun.svg" alt="Need High Sun" />
+                      <img
+                        src="images/results/icons/Raindrop.svg"
+                        alt="Need Water"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col" style="width: 14rem; align-items: center">
+                <img
+                  class="card-img-content"
+                  src="images/results/plants/bunny-ears-cacti.jpg"
+                  alt="Bunny ears cacti"
+                />
+                <div class="card-body-content">
+                  <h3>Bunny ears cacti</h3>
+                  <div class="row justify-content-around">
+                  <p class="card-text-content">$20</p>
+                    <div class="image-content">
+                      <img src="images/results/icons/Pet.svg" alt="Pet Friendly" />
+                      <img src="images/results/icons/HighSun.svg" alt="Need High Sun" />
+                      <img
+                        src="images/results/icons/Raindrop.svg"
+                        alt="Need Water"
+                      />
+                    </div>
+                  </div>
+              </div>
+              <div class="card col" style="width: 14rem;">
+                <img
+                  class="card-img-content"
+                  src="images/results/plants/bunny-ears-cacti.jpg"
+                  alt="Bunny ears cacti"
+                />
+                <div class="card-body-content">
+                  <h3>Bunny ears cacti</h3>
+                  <p class="card-text-content">$20</p>
+                  <div class="image-content">
+                    <img src="images/results/icons/Pet.svg" alt="Pet Friendly" />
+                    <img src="images/results/icons/HighSun.svg" alt="Need High Sun" />
+                    <img
+                      src="images/results/icons/Raindrop.svg"
+                      alt="Need Water"
+                    />
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  crossorigin="anonymous"
+></script>

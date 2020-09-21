@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+  padding-left: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  align-self: start;
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-weight: bolder;
+  margin-bottom: 70px;
+}
+
+.home-banner {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-color: #ffffff;
+  margin: 20px;
+}
+
+.card-body {
+  padding-left: 0px;
+}
+
+.card-text {
+  color: grey;
+}
+
+.card-img-top {
+  width: 90px;
+  height: 90px;
+}
+
+.dropdown {
+  background-color: #ffffff;
+  color: black;
+}
+
+.btn {
+  width: 30vh;
+  text-align: left;
+  background-color: #ffffff;
+  color: grey;
+  border-radius: 30px;
+}
+
+.home-content {
+  background-color: #ededed;
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-weight: bolder;
+  margin-bottom: 70px;
+}
+
+.card-content {
+  margin-top: 8vh;
+}
+
+.card-img-content {
+  width: auto;
+  height: 25vh;
+}
+
+h3 {
+  color: #1e6b4e;
+  font-weight: bold;
+}
+
+.card-text-content {
+  font-weight: bold;
+  color: #1e6b4e;
+}
+
+.card-img-content {
+  margin: 20px;
+  text-align: end;
+}
